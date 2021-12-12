@@ -15,7 +15,7 @@ ems-admin-element-plus是ems-admin前端的element-plus版本，后台为基本S
 [![GitHub stars](https://img.shields.io/github/stars/ems-admin/ems-admin-element-plus.svg?style=social&label=Stars)](https://github.com/ems-admin/ems-admin-element-plus)
 [![GitHub forks](https://img.shields.io/github/forks/ems-admin/ems-admin-element-plus.svg?style=social&label=Fork)](https://github.com/ems-admin/ems-admin-element-plus)
 
-[ems-admin-layui演示站点](http://ems-admin-element-plus.facebook47.cn/)
+[ems-admin-element-plus演示站点](http://ems-admin-element-plus.facebook47.cn/)
 
 ####    操作提示
 
