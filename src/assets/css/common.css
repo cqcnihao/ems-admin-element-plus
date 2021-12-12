@@ -1,0 +1,145 @@
+.login-div{
+    height:calc(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/background.jpg");
+    background-size: 100% 100%;
+}
+
+.login-form{
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    background: rgba(153,153,153, 0.8);
+}
+
+.login-input{
+    width: 300px!important;
+}
+
+.login-head{
+    padding: 5px 5px 5px 5px;
+}
+
+.body{
+    /*height: calc(100vh - 120px);*/
+    /*width: calc(100vw - 200px);*/
+}
+
+.tab{
+    height: calc(100vh - 60px);
+}
+
+.head-left{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-bottom: 1px solid #e4e7ed;
+}
+
+.head-right{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-bottom: 1px solid #e4e7ed;
+}
+
+.menu-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: rgba(0,0,0,0.08);
+}
+
+.bread{
+    margin: 0 10px;
+    color: #999;
+}
+
+.iframe{
+    height: calc(100vh - 100px);
+    width: 100%;
+    border: none;
+}
+
+.search-div{
+    margin-top: 0;
+    align-items: center;
+    height: 40px;
+    display: flex;
+}
+
+.search-input{
+    height: 30px;
+    display: inline;
+    width: 300px!important;
+    margin-right: 20px;
+}
+
+.search-row{
+    margin-bottom: 15px;
+}
+
+.dialog-input{
+    min-width: 300px!important;
+    width: 100% !important;
+    float: left;
+}
+
+.search-inline{
+    width: 500px;
+    display: inline-flex;
+    align-items: center;
+    float: left;
+}
+
+.layui-input-form{
+    width: 500px;
+}
+
+.layui-inline-form{
+    width: 500px!important;
+}
+
+.layui-textarea-form{
+    height: 100px!important;
+}
+
+.btn-div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-save{
+    width: 80px;
+    border-radius: 100px;
+}
+
+.border{
+    border: 1px solid #eee;
+}
+
+.layerIframe{
+    padding: 20px 50px 0 20px;
+}
+
+.layui-table-page{
+    text-align: left;
+}
+
+.layui-select-tips{
+    text-align: left;
+}
+
+.layui-form-select dl dd{
+    text-align: left;
+}
+
+.username{
+    cursor: pointer;
+    color: #009688;
+}
