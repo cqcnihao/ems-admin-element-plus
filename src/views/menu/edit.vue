@@ -131,28 +131,6 @@ export default {
       })
     }
 
-    //  form表单渲染
-    nextTick(() => {
-      const form = window.layui.form
-      //  渲染radio
-      form.render('radio')
-      //  监听radio
-      form.on('radio(type)', function (obj) {
-        if (obj.value === '2' || obj.value === '3'){
-          state.isPage = true
-        } else {
-          state.isPage = false
-        }
-      })
-      //  提交
-      form.on('submit(form)', function (data) {
-        console.info('aaa')
-        console.info(data.field)
-
-        return false
-      })
-    })
-
     return {
       state,
       menuRule,

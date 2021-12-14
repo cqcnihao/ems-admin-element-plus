@@ -1,6 +1,6 @@
 <template>
-  <el-tabs v-model="activeIndex" type="card" closable @tab-remove="removeTab" @tab-click="clickTab">
-    <el-tab-pane v-for="(tab, index) in tabs" :key="index" :label="tab.name" :name="tab.path">
+  <el-tabs v-model="activeIndex" type="card" @tab-remove="removeTab" @tab-click="clickTab">
+    <el-tab-pane v-for="(tab, index) in tabs" :key="index" :label="tab.name" :name="tab.path" :closable="tab.close">
 
     </el-tab-pane>
     <keep-alive>
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import {computed, onMounted, reactive} from "vue";
+import {computed, reactive} from "vue";
 import store from "../../store";
 import routers from "../../router/routers";
 

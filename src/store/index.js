@@ -12,7 +12,7 @@ const store = createStore({
     //  当前激活的路由
     activeIndex: '',
     //  🍞屑
-    breads:[{path: '/home', name: '首页'}]
+    breads:[{path: '/home', name: '首页', close: false}]
   },
   mutations: {
     //  持久化token
@@ -34,7 +34,12 @@ const store = createStore({
     //  添加tabs
     addTabs(state, payload){
       if (!state.openTabs.find((tab) => tab.path === payload.path)){
+        //  首页禁止关闭
+        if (payload.name !== '首页'){
+          payload.close = true
+        }
         state.openTabs.push(payload)
+        console.info(state.openTabs)
       }
     },
     //  删除tabs
@@ -51,7 +56,7 @@ const store = createStore({
     },
     //  添加🍞屑
     addBread(state, payload){
-      state.breads = [{path: '/home', name: '首页'}]
+      state.breads = [{path: '/home', name: '首页', close: false}]
       if (payload && payload.length > 0){
         payload.forEach((item) => {
           state.breads.push(item)
