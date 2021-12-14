@@ -70,6 +70,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 .el-tabs__nav .el-tabs__item:nth-child(1) span{
    display: none;
 }
@@ -77,4 +78,36 @@ export default {
 .el-tabs{
   height: calc(100vh - 70px) !important;
 }
+
+/deep/  .el-tabs__header{
+  background-color: #F2F6FC;
+  height: 30px;
+  width: calc(100vw - 200px);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: none!important;
+}
+
+/deep/  .el-tabs__nav{
+  border: none!important;
+  margin-left: 20px;
+}
+
+/deep/  .el-tabs__item{
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  border-style: none!important;
+}
+
+/deep/  .el-tabs__item.is-active{
+  color: #ffffff;
+  background-color: #67C23A;
+}
+
+/deep/  .el-tabs__content{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 </style>

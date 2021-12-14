@@ -49,7 +49,6 @@ export default {
 
 <style scoped lang="scss">
 .el-main{
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0;
 }
 </style>
