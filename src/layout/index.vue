@@ -51,4 +51,9 @@ export default {
 .el-main{
   padding: 0;
 }
+.el-header{
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 50px;
+}
 </style>

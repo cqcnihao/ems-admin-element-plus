@@ -76,7 +76,7 @@ export default {
 }
 
 .el-tabs{
-  height: calc(100vh - 70px) !important;
+  height: calc(100vh - 50px) !important;
 }
 
 /deep/  .el-tabs__header{
@@ -90,7 +90,7 @@ export default {
 
 /deep/  .el-tabs__nav{
   border: none!important;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 /deep/  .el-tabs__item{
