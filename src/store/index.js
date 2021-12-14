@@ -39,7 +39,6 @@ const store = createStore({
           payload.close = true
         }
         state.openTabs.push(payload)
-        console.info(state.openTabs)
       }
     },
     //  删除tabs
